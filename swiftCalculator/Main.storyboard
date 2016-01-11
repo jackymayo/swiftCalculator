@@ -45,79 +45,241 @@
                                     <rect key="frame" x="20" y="91" width="65" height="61"/>
                                 </variation>
                                 <connections>
-                                    <action selector="calculatorDigit:" destination="cTk-Tx-4d7" eventType="touchUpInside" id="j0i-Cw-dZt"/>
+                                    <action selector="calculatorDigit:" destination="cTk-Tx-4d7" eventType="touchUpInside" id="g3v-lc-21v"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="l9D-7c-GUz">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fAX-yH-IZk">
                                 <rect key="frame" x="-23" y="-15" width="46" height="30"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="37"/>
                                 <state key="normal" title="8"/>
                                 <variation key="widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="93" y="91" width="65" height="61"/>
+                                    <rect key="frame" x="88" y="91" width="65" height="61"/>
                                 </variation>
+                                <connections>
+                                    <action selector="calculatorDigit:" destination="cTk-Tx-4d7" eventType="touchUpInside" id="ycX-4I-8P3"/>
+                                </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VhK-7a-RZh">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uAM-Wk-3Bs">
                                 <rect key="frame" x="-23" y="-15" width="46" height="30"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="37"/>
                                 <state key="normal" title="9"/>
                                 <variation key="widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="166" y="91" width="65" height="61"/>
+                                    <rect key="frame" x="161" y="91" width="65" height="61"/>
                                 </variation>
+                                <connections>
+                                    <action selector="calculatorDigit:" destination="cTk-Tx-4d7" eventType="touchUpInside" id="zPk-eT-XIT"/>
+                                </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bxy-Si-UZw">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Fgl-JD-dhh">
                                 <rect key="frame" x="-23" y="-15" width="46" height="30"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="37"/>
                                 <state key="normal" title="4"/>
                                 <variation key="widthClass=compact" fixedFrame="YES">
                                     <rect key="frame" x="20" y="160" width="65" height="61"/>
                                 </variation>
+                                <connections>
+                                    <action selector="calculatorDigit:" destination="cTk-Tx-4d7" eventType="touchUpInside" id="AT4-Fq-979"/>
+                                </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="if0-0Q-9yC">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JvI-ST-5rw">
                                 <rect key="frame" x="-23" y="-15" width="46" height="30"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="37"/>
                                 <state key="normal" title="5"/>
                                 <variation key="widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="93" y="160" width="65" height="61"/>
+                                    <rect key="frame" x="88" y="160" width="65" height="61"/>
                                 </variation>
+                                <connections>
+                                    <action selector="calculatorDigit:" destination="cTk-Tx-4d7" eventType="touchUpInside" id="Ou0-Ce-u57"/>
+                                </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="11D-si-XLI">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="siu-pS-OhW">
                                 <rect key="frame" x="-23" y="-15" width="46" height="30"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="37"/>
                                 <state key="normal" title="6"/>
                                 <variation key="widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="166" y="160" width="65" height="61"/>
+                                    <rect key="frame" x="161" y="160" width="65" height="61"/>
                                 </variation>
+                                <connections>
+                                    <action selector="calculatorDigit:" destination="cTk-Tx-4d7" eventType="touchUpInside" id="IWA-il-oAH"/>
+                                </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="54M-fp-rbi">
-                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="37"/>
-                                <state key="normal" title="2"/>
-                                <variation key="widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="93" y="229" width="65" height="61"/>
-                                </variation>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VxB-ag-1q5">
-                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="37"/>
-                                <state key="normal" title="3"/>
-                                <variation key="widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="166" y="229" width="65" height="61"/>
-                                </variation>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jvn-Kw-dcT">
-                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="37"/>
-                                <state key="normal" title="0"/>
-                                <variation key="widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="93" y="298" width="65" height="61"/>
-                                </variation>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EWj-hg-mjz">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3dD-W8-Jpa">
                                 <rect key="frame" x="-23" y="-15" width="46" height="30"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="37"/>
                                 <state key="normal" title="1"/>
                                 <variation key="widthClass=compact" fixedFrame="YES">
                                     <rect key="frame" x="20" y="229" width="65" height="61"/>
+                                </variation>
+                                <connections>
+                                    <action selector="calculatorDigit:" destination="cTk-Tx-4d7" eventType="touchUpInside" id="zP9-uU-gEJ"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Bee-gL-Qhi">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="37"/>
+                                <state key="normal" title="3"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="161" y="229" width="65" height="61"/>
+                                </variation>
+                                <connections>
+                                    <action selector="calculatorDigit:" destination="cTk-Tx-4d7" eventType="touchUpInside" id="eDp-pu-v5o"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lxO-fW-SAe">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="37"/>
+                                <state key="normal" title="0"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="88" y="298" width="65" height="61"/>
+                                </variation>
+                                <connections>
+                                    <action selector="calculatorDigit:" destination="cTk-Tx-4d7" eventType="touchUpInside" id="uFv-iO-L2V"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nMw-Fd-Nw0">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="37"/>
+                                <state key="normal" title="2"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="88" y="229" width="65" height="61"/>
+                                </variation>
+                                <connections>
+                                    <action selector="calculatorDigit:" destination="cTk-Tx-4d7" eventType="touchUpInside" id="MOj-gN-WB6"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="F0F-XB-QVR">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="37"/>
+                                <state key="normal" title="AC"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="88" y="367" width="138" height="61"/>
+                                </variation>
+                                <connections>
+                                    <action selector="clearButton:" destination="cTk-Tx-4d7" eventType="touchUpInside" id="xVr-NE-4Iq"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DB7-cG-q7i">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="37"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="315" y="367" width="65" height="61"/>
+                                </variation>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kge-4i-Rew">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="37"/>
+                                <state key="normal" title="⏎"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="161" y="298" width="65" height="61"/>
+                                </variation>
+                                <connections>
+                                    <action selector="enterButton" destination="cTk-Tx-4d7" eventType="touchUpInside" id="76C-WJ-PUF"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2rN-J1-ZQG">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="37"/>
+                                <state key="normal" title="×"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="234" y="91" width="65" height="61"/>
+                                </variation>
+                                <connections>
+                                    <action selector="operatorType:" destination="cTk-Tx-4d7" eventType="touchUpInside" id="AUe-FL-NqS"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tEW-kL-zOR">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="37"/>
+                                <state key="normal" title="÷"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="234" y="160" width="65" height="61"/>
+                                </variation>
+                                <connections>
+                                    <action selector="operatorType:" destination="cTk-Tx-4d7" eventType="touchUpInside" id="dGh-wL-QBX"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="T2S-pX-Ct9">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="37"/>
+                                <state key="normal" title="+"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="234" y="229" width="65" height="61"/>
+                                </variation>
+                                <connections>
+                                    <action selector="operatorType:" destination="cTk-Tx-4d7" eventType="touchUpInside" id="t0X-Jg-SAk"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bxG-7W-eJB">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="37"/>
+                                <state key="normal" title="−"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="234" y="298" width="65" height="61"/>
+                                </variation>
+                                <connections>
+                                    <action selector="operatorType:" destination="cTk-Tx-4d7" eventType="touchUpInside" id="3OP-Ms-zWf"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UUi-gm-pzI">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="37"/>
+                                <state key="normal" title="√"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="315" y="298" width="65" height="61"/>
+                                </variation>
+                                <connections>
+                                    <action selector="operatorType:" destination="cTk-Tx-4d7" eventType="touchUpInside" id="7Mf-1K-a4R"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pjR-9G-P11">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="37"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="20" y="298" width="65" height="61"/>
+                                </variation>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OdD-sU-Udg">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="37"/>
+                                <state key="normal" title="x²"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="315" y="91" width="65" height="61"/>
+                                </variation>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="v09-yv-oQ4">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="37"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="20" y="367" width="65" height="61"/>
+                                </variation>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vWg-eE-Dhl">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="37"/>
+                                <state key="normal" title="cos"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="315" y="229" width="65" height="61"/>
+                                </variation>
+                                <connections>
+                                    <action selector="operatorType:" destination="cTk-Tx-4d7" eventType="touchUpInside" id="gOE-as-FaR"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="R8p-C4-Fgz">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="37"/>
+                                <state key="normal" title="sin"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="315" y="160" width="65" height="61"/>
+                                </variation>
+                                <connections>
+                                    <action selector="operatorType:" destination="cTk-Tx-4d7" eventType="touchUpInside" id="Oih-Ip-BNd"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cCR-Yl-V1q">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="37"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="234" y="367" width="65" height="61"/>
                                 </variation>
                             </button>
                         </subviews>
@@ -131,15 +293,29 @@
                             <mask key="subviews">
                                 <exclude reference="kVd-Nj-58q"/>
                                 <exclude reference="YST-lO-bbI"/>
-                                <exclude reference="l9D-7c-GUz"/>
-                                <exclude reference="VhK-7a-RZh"/>
-                                <exclude reference="bxy-Si-UZw"/>
-                                <exclude reference="if0-0Q-9yC"/>
-                                <exclude reference="11D-si-XLI"/>
-                                <exclude reference="54M-fp-rbi"/>
-                                <exclude reference="VxB-ag-1q5"/>
-                                <exclude reference="jvn-Kw-dcT"/>
-                                <exclude reference="EWj-hg-mjz"/>
+                                <exclude reference="fAX-yH-IZk"/>
+                                <exclude reference="uAM-Wk-3Bs"/>
+                                <exclude reference="Fgl-JD-dhh"/>
+                                <exclude reference="JvI-ST-5rw"/>
+                                <exclude reference="siu-pS-OhW"/>
+                                <exclude reference="3dD-W8-Jpa"/>
+                                <exclude reference="Bee-gL-Qhi"/>
+                                <exclude reference="lxO-fW-SAe"/>
+                                <exclude reference="nMw-Fd-Nw0"/>
+                                <exclude reference="F0F-XB-QVR"/>
+                                <exclude reference="DB7-cG-q7i"/>
+                                <exclude reference="kge-4i-Rew"/>
+                                <exclude reference="2rN-J1-ZQG"/>
+                                <exclude reference="tEW-kL-zOR"/>
+                                <exclude reference="T2S-pX-Ct9"/>
+                                <exclude reference="bxG-7W-eJB"/>
+                                <exclude reference="UUi-gm-pzI"/>
+                                <exclude reference="pjR-9G-P11"/>
+                                <exclude reference="OdD-sU-Udg"/>
+                                <exclude reference="v09-yv-oQ4"/>
+                                <exclude reference="vWg-eE-Dhl"/>
+                                <exclude reference="R8p-C4-Fgz"/>
+                                <exclude reference="cCR-Yl-V1q"/>
                             </mask>
                             <mask key="constraints">
                                 <exclude reference="4LR-CG-6UO"/>
@@ -151,15 +327,29 @@
                             <mask key="subviews">
                                 <include reference="kVd-Nj-58q"/>
                                 <include reference="YST-lO-bbI"/>
-                                <include reference="l9D-7c-GUz"/>
-                                <include reference="VhK-7a-RZh"/>
-                                <include reference="bxy-Si-UZw"/>
-                                <include reference="if0-0Q-9yC"/>
-                                <include reference="11D-si-XLI"/>
-                                <include reference="54M-fp-rbi"/>
-                                <include reference="VxB-ag-1q5"/>
-                                <include reference="jvn-Kw-dcT"/>
-                                <include reference="EWj-hg-mjz"/>
+                                <include reference="fAX-yH-IZk"/>
+                                <include reference="uAM-Wk-3Bs"/>
+                                <include reference="Fgl-JD-dhh"/>
+                                <include reference="JvI-ST-5rw"/>
+                                <include reference="siu-pS-OhW"/>
+                                <include reference="3dD-W8-Jpa"/>
+                                <include reference="Bee-gL-Qhi"/>
+                                <include reference="lxO-fW-SAe"/>
+                                <include reference="nMw-Fd-Nw0"/>
+                                <include reference="F0F-XB-QVR"/>
+                                <include reference="DB7-cG-q7i"/>
+                                <include reference="kge-4i-Rew"/>
+                                <include reference="2rN-J1-ZQG"/>
+                                <include reference="tEW-kL-zOR"/>
+                                <include reference="T2S-pX-Ct9"/>
+                                <include reference="bxG-7W-eJB"/>
+                                <include reference="UUi-gm-pzI"/>
+                                <include reference="pjR-9G-P11"/>
+                                <include reference="OdD-sU-Udg"/>
+                                <include reference="v09-yv-oQ4"/>
+                                <include reference="vWg-eE-Dhl"/>
+                                <include reference="R8p-C4-Fgz"/>
+                                <include reference="cCR-Yl-V1q"/>
                             </mask>
                             <mask key="constraints">
                                 <include reference="4LR-CG-6UO"/>
@@ -170,6 +360,7 @@
                     </view>
                     <connections>
                         <outlet property="calculatorDisplay" destination="kVd-Nj-58q" id="Nxr-Ma-EnD"/>
+                        <outlet property="clearButton" destination="F0F-XB-QVR" id="NVM-wS-wno"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="zG9-lY-blZ" userLabel="First Responder" sceneMemberID="firstResponder"/>
