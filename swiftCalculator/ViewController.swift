@@ -12,27 +12,40 @@ import UIKit
 class ViewController: UIViewController {
     
     var operandStack = Array<Double>()
+    //false sets display to be original value 
+    //true appends the digit
     var userIsPressingButton = false
+    //determines the proper usage for the UILabel input history
+
+    
+    //count the amount of times decimal has been used
    
     
+    @IBOutlet weak var input: UILabel!
     @IBOutlet weak var calculatorDisplay: UILabel!
+    
+    func appendHistory(sender: String){
+        input.text = input.text! + " " + sender
+    }
 
-  
     @IBAction func calculatorDigit(sender: UIButton) {
         let digit = sender.currentTitle!
-        //used for inital debugging print("\(digit)")
-        if userIsPressingButton {
-            calculatorDisplay.text = calculatorDisplay.text! + digit
-        }
-        else{
-            calculatorDisplay.text = digit
-            userIsPressingButton = true
-        }
-    
+            if userIsPressingButton{
+                //if decimal found and digit used then terminate else keep going
+                if !(calculatorDisplay.text!.rangeOfString(".") != nil && digit == "."){
+                    calculatorDisplay.text = calculatorDisplay.text! + digit
+                }
+            }
+            else{
+                calculatorDisplay.text = digit
+                userIsPressingButton = true
+            }
+            appendHistory("\(digit)")
     }
     
     @IBAction func operatorType(sender: UIButton) {
         let operatorValue = sender.currentTitle!
+        
         switch operatorValue {
             //last operation could go outside
         case "×": performOperation(){$0 * $1}
@@ -42,9 +55,10 @@ class ViewController: UIViewController {
         case "√": performOperation(){sqrt($0)}
         case "cos": performOperation(){cos($0)}
         case "sin": performOperation(){sin($0)}
-        case "x²": performOperation(){$0 * $0}
-            default: break
+        case "π": constantOperation(M_PI)
+        default: break
         }
+            appendHistory("\(operatorValue) =")
     }
     
     @nonobjc func performOperation(operation: (Double,Double) -> Double ) {
@@ -61,11 +75,21 @@ class ViewController: UIViewController {
         }
     }
     
+    //function used for constants
+    func constantOperation(someConstant: Double){
+        if userIsPressingButton {
+            enterButton()
+        }
+        displayValue = someConstant
+        enterButton()
+    }
+    
     @IBAction func clearButton() {
         operandStack.removeAll()
         calculatorDisplay.text = "0"
         userIsPressingButton = false;
         print("operandStack = \(operandStack)")
+        appendHistory("C")
     }
   
     var displayValue : Double{
@@ -78,55 +102,24 @@ class ViewController: UIViewController {
         }
     }
     @IBAction func enterButton() {
-        //resets the display
+        //resets the display and decimal count
         userIsPressingButton = false
+        
+        //append the value to stack
         operandStack.append(displayValue)
         print("operandStack = \(operandStack)")
         
-        
+    }
+    
+    
+    @IBAction func historyEnter() {
+        appendHistory("⏎")
     }
     
     
     
     
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        // Do any additional setup after loading the view.
-        
-        
-    }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
     
 
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
-    }
-    */
 
 }
