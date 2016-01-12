@@ -39,7 +39,10 @@ class ViewController: UIViewController {
         case "÷": performOperation(){$1 / $0}
         case "+": performOperation(){$0 + $1}
         case "−": performOperation(){$1 - $0}
-        case "√": performOperation(){$0}
+        case "√": performOperation(){sqrt($0)}
+        case "cos": performOperation(){cos($0)}
+        case "sin": performOperation(){sin($0)}
+        case "x²": performOperation(){$0 * $0}
             default: break
         }
     }
@@ -58,11 +61,13 @@ class ViewController: UIViewController {
         }
     }
     
-    
-    @IBAction func clearButton(sender: UIButton) {
-        operandStack.All()
-        userIsPressingButton = false
+    @IBAction func clearButton() {
+        operandStack.removeAll()
+        calculatorDisplay.text = "0"
+        userIsPressingButton = false;
+        print("operandStack = \(operandStack)")
     }
+  
     var displayValue : Double{
         get {
             return NSNumberFormatter().numberFromString(calculatorDisplay.text!)!.doubleValue
