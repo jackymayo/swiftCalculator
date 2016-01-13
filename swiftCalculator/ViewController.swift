@@ -115,10 +115,7 @@ class ViewController: UIViewController {
     @IBAction func historyEnter() {
         appendHistory("⏎")
     }
-    
-    
-    
-    
+
     
 
 
