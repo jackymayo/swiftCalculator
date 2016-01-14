@@ -56,6 +56,20 @@ class ViewController: UIViewController {
         case "cos": performOperation(){cos($0)}
         case "sin": performOperation(){sin($0)}
         case "π": constantOperation(M_PI)
+        case "ᐩ/-":
+            if userIsPressingButton {
+                if calculatorDisplay.text == "-" { //condition takes into the account of -0 and 0
+                    calculatorDisplay.text = "0"
+                    userIsPressingButton = false
+                    break
+                }
+                    displayValue = displayValue * -1
+                    userIsPressingButton = true
+            }
+            else{
+                    calculatorDisplay.text = "-"
+                    userIsPressingButton = true
+            }
         default: break
         }
             appendHistory("\(operatorValue) =")
@@ -94,6 +108,7 @@ class ViewController: UIViewController {
   
     var displayValue : Double{
         get {
+            switch
             return NSNumberFormatter().numberFromString(calculatorDisplay.text!)!.doubleValue
         }
         set {
@@ -108,14 +123,26 @@ class ViewController: UIViewController {
         //append the value to stack
         operandStack.append(displayValue)
         print("operandStack = \(operandStack)")
+        if input.text!.characters.count > 20 {
+                input.text = "Input: "
+        }
         
     }
     
     
+   
     @IBAction func historyEnter() {
         appendHistory("⏎")
     }
-
+    @IBAction func backSpace() {
+        let displaySelection = calculatorDisplay.text!.characters
+        print("\(displaySelection.count)")
+        if displaySelection.count > 1{
+            calculatorDisplay.text = String(displaySelection.dropLast())
+        }
+    
+    }
+    
     
 
 
